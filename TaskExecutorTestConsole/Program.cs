@@ -13,6 +13,11 @@ namespace TaskExecutorTestConsole
   {
     static void Main(string[] args)
     {
+      Console.WriteLine(
+        "You should really put breakpoints and step through this code only after the SF application is up and running. " +
+        "\n\nPress ENTER when the SF app is running...");
+      Console.ReadLine();
+
       string solutionFolderPath = 
         Path.GetFullPath(
           Path.Combine(
